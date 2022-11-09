@@ -1,0 +1,45 @@
+*,
+a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1368px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.nav img {
+    height: 15px;
+    width: 120px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-left: 25px;
+}
+
+li a:hover {
+    font-size: 15px;
+}
+
+nav ul li a {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    color: rgba(102, 102, 102, 0.85);
+}
